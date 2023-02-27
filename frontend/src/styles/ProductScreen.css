@@ -1,0 +1,78 @@
+.productscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.left {
+  display: flex;
+  flex: 0.8;
+}
+
+.left_image {
+  margin: 1rem;
+  flex: 0.8;
+}
+
+.left_info {
+  margin: 1rem;
+  flex: 0.4;
+  background: white;
+  height: fit-content;
+  font-size: 0.9rem;
+}
+
+.left_name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.left_info > p,
+.right_info > p {
+  padding: 1rem;
+  border-bottom: 1px none rgba(0, 0, 0, 0.2);
+}
+
+.right {
+  flex: 0.2;
+}
+
+.right_info {
+  margin: 1rem;
+  width: 250px;
+  background: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.right_info p {
+  padding: 1rem;
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.right_info p > button {
+  grid-column: 1/-1;
+  padding: 10px 16px;
+  text-align: center;
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.right_info p > button:hover {
+  background: #ddb347;
+}
+
+.right_info p > button:disabled {
+  background: #ddd;
+  cursor: not-allowed;
+}

@@ -1,0 +1,48 @@
+.cartscreen {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.cartscreen h2 {
+  margin-bottom: 1rem;
+}
+
+.cartscreen_left {
+  flex: 0.8;
+  margin-right: 1rem;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.cartscreen_right {
+  flex: 0.2;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  height: fit-content;
+}
+
+.cartscreen_right > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.cartscreen_right div:last-child {
+  border: none;
+}
+
+.cartscreen_info p {
+  padding: 8px;
+}
+
+.cartscreen_right div button {
+  padding: 10px 16px;
+  width: 100%;
+  background: #f0c14b;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.cartscreen_right div button:hover {
+  opacity: 0.8;
+}

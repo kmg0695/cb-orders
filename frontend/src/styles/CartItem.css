@@ -1,0 +1,44 @@
+.cartitem {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  gap: 8px;
+  background: white;
+  border-radius: 2px;
+  place-items: center;
+}
+
+.cartitem_name {
+  text-decoration: none;
+  color: #171717;
+}
+
+.cartitem_name:hover {
+  text-decoration: none;
+  color: #ddb347;
+}
+
+.cartitem_select {
+  padding: 10px 17px;
+}
+
+.cartitem_deletebtn {
+  padding: 10px 17px;
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-out;
+}
+
+.cartitem_deletebtn:hover,
+.cartitem_deletebtn:focus,
+.cartitem_deletebtn:active {
+  background: red;
+  transform: scale(1.1);
+}

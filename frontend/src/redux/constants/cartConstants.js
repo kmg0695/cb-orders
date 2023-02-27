@@ -1,0 +1,8 @@
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+export const CART_RESET = "CART_RESET";
+
+export const CART_ORDER_REQUEST = "CART_ORDER_REQUEST";
+export const CART_ORDER_SUCCESS = "CART_ORDER_SUCCESS";
+export const CART_ORDER_FAIL = "CART_ORDER_FAIL";
+export const CART_ORDER_RESET = "CART_ORDER_RESET";
